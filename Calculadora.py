@@ -98,7 +98,5 @@ class Calculadora(BoxLayout):
 class AppCalculadora(App):
     def build(self):
         return Calculadora()
-
-
-if __name__ == "__main__":
-    AppCalculadora().run()
+        
+AppCalculadora().run()
